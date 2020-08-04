@@ -27,7 +27,6 @@ export default class VoiceMod
 	// Injecting works in Prestart and Main. AJAX Requests work in Postload, Prestart, and Main.
 	constructor(mod)
 	{
-		super(mod);
 		this.MOD_NAME = mod.name;
 		this.BASE_DIR = mod.baseDirectory;
 		this.RELATIVE_DIR = this.BASE_DIR.substring(7); // Gets rid of "assets/".
