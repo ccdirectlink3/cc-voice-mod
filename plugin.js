@@ -57,7 +57,7 @@ export default class VoiceMod
 		this._inject(this);
 	}
 	
-	async main()
+	async poststart()
 	{
 		this._injectMain(this);
 	}
