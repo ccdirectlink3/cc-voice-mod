@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-export default class VoiceMod extends Plugin
+export default class VoiceMod
 {
 	/*
 	[Field Variables]
